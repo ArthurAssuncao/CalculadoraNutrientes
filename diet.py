@@ -1,6 +1,7 @@
 # see result json in https://www.convertcsv.com/json-to-csv.htm
 
 import json
+import matplotlib.pyplot as plot
 
 DIET_FILE = "diet.json"
 USER_FILE = "user.json"
@@ -287,6 +288,44 @@ def generate_bioactive_compound_calculated(diet):
     return bioactive_compound_data
 
 
+def generate_chart(diet_calculated):
+    diet = diet_calculated["diet"]
+    x = []
+    y = []
+    label = []
+    num_nutrients = 0
+    for nutrient in diet:
+        try:
+            valor_perc = diet[nutrient]["Percentual do valor diário (VD)"]
+            num_nutrients = num_nutrients + 1
+            label.append(nutrient)
+            y.append(valor_perc)
+        except KeyError:
+            pass
+
+    x = list(range(1, num_nutrients + 1))
+
+    fig = plot.figure()
+    fig.set_figwidth(12)
+    fig.set_figheight(6)
+
+    plot.bar(x, y, tick_label=label, width=0.8, color=['#19aade', '#7d3ac1'])
+
+    plot.hlines(100, 0, num_nutrients + 1, color='#ff6961', linestyle='dotted', linewidth=2)
+
+    plot.xticks(rotation='vertical')
+
+    plot.xlabel('Nutriente')
+
+    plot.ylabel('% em relação ao Valor Diário')
+
+    plot.subplots_adjust(bottom=0.5)
+
+    plot.title('Porcentagem do valor diário por nutriente!')
+
+    plot.savefig('diet_calculated_nutrients-perc.png', dpi=100)
+
+
 def main():
     user = read_user()
     diet = read_diet()
@@ -304,6 +343,9 @@ def main():
     diet_calculated = add_macros_per_meal(diet, foods, diet_calculated)
     bioactive_calculated = generate_bioactive_compound_calculated(diet)
     diet_calculated['Compostos bioativos - Flavonóides (mg)'] = bioactive_calculated
+
+    generate_chart(diet_calculated)
+
     save_data(diet_calculated)
 
 

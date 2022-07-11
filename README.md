@@ -14,4 +14,6 @@ Execute o arquivo `diet.py`.
 python diet.py
 ```
 
-Agora abra o arquivo gerado, o `diet-calculated.json`.
+Agora abra o arquivo gerado, o `diet-calculated.json` ou veja o gráfico resumido com o valor diário consumido por nutriente em relação a porcentagem do valor diário recomendado na figura `diet_calculated_nutrients-perc.png`, fica assim:
+
+![valor diário consumido por nutriente em relação a porcentagem do valor diário recomendado](https://raw.githubusercontent.com/ArthurAssuncao/CalculadoraNutrientes/diet_calculated_nutrients-perc.png)
