@@ -1,0 +1,154 @@
+{
+   "Ácido fólico":{
+      "unit":"mcg",
+      "value":400
+   },
+   "Ácidos graxos saturados":{
+      "unit":"g",
+      "value":20
+   },
+   "Ácido pantotênico":{
+      "unit":"mg",
+      "value":5
+   },
+   "Açúcar de adição":{
+      "unit":"g",
+      "value":50
+   },
+   "Biotina":{
+      "unit":"mcg",
+      "value":30
+   },
+   "Cálcio":{
+      "unit":"mg",
+      "value":1300
+   },
+   "Carboidrato":{
+      "unit":"g",
+      "value":275
+   },
+   "Carboidrato total":{
+      "unit":"g",
+      "value":275
+   },
+   "Cholina":{
+      "unit":"mg",
+      "value":50
+   },
+   "Cloreto":{
+      "unit":"mcg",
+      "value":2300
+   },
+   "Cobre":{
+      "unit":"mg",
+      "value":0.9
+   },
+   "Colesterol":{
+      "unit":"mg",
+      "value":300
+   },
+   "Cromo":{
+      "unit":"mcg",
+      "value":35
+   },
+   "Equivalente de folato":{
+      "unit":"mcg",
+      "value":400
+   },
+   "Ferro":{
+      "unit":"mg",
+      "value":18
+   },
+   "Fibra alimentar":{
+      "unit":"g",
+      "value":28
+   },
+   "Fósforo":{
+      "unit":"mg",
+      "value":1250
+   },
+   "Iodo":{
+      "unit":"mcg",
+      "value":150
+   },
+   "Lipídios":{
+      "unit":"g",
+      "value":78
+   },
+   "Magnésio":{
+      "unit":"mg",
+      "value":420
+   },
+   "Manganês":{
+      "unit":"mg",
+      "value":2.3
+   },
+   "Molibdênio":{
+      "unit":"mcg",
+      "value":45
+   },
+   "Niacina":{
+      "unit":"mg",
+      "value":16
+   },
+   "Potássio":{
+      "unit":"mg",
+      "value":4700
+   },
+   "Proteína":{
+      "unit":"g",
+      "value":50
+   },
+   "Riboflavina":{
+      "unit":"mg",
+      "value":1.3
+   },
+   "Selênio":{
+      "unit":"mcg",
+      "value":55
+   },
+   "Sódio":{
+      "unit":"mg",
+      "value":2300
+   },
+   "Tiamina":{
+      "unit":"mg",
+      "value":1.2
+   },
+   "Vitamina A (RAE)":{
+      "unit":"mcg",
+      "value":900
+   },
+   "Vitamina A (RE)":{
+      "unit":"mcg",
+      "value":1800
+   },
+   "Vitamina B12":{
+      "unit":"mcg",
+      "value":2.4
+   },
+   "Vitamina B6":{
+      "unit":"mg",
+      "value":1.7
+   },
+   "Vitamina C":{
+      "unit":"mg",
+      "value":90
+   },
+   "Vitamina D":{
+      "unit":"mcg",
+      "value":20
+   },
+   "Alfa-tocoferol (Vitamina E)":{
+      "unit":"mg",
+      "value":15
+   },
+   "Vitamina K":{
+      "unit":"mcg",
+      "value":120
+   },
+   "Zinco":{
+      "unit":"mg",
+      "value":11
+   }
+}

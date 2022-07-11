@@ -1,0 +1,14 @@
+{
+	"weigth": "69",
+	"height": "1.78",
+	"diet_type": "gain",
+	"protein_target": {
+		"value": 115
+	},
+	"water_target": {
+		"value": 2500
+	},
+	"energy_target": {
+		"value": 2500
+	}
+}

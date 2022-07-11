@@ -1,0 +1,361 @@
+{
+    "diet": {
+        "Energia": {
+            "unidade": "kcal",
+            "valor": 2486.57,
+            "Percentual do valor diário (VD)": 99.46
+        },
+        "Umidade": {
+            "unidade": "g",
+            "valor": 1455.86,
+            "Percentual do valor diário (VD)": 58.23
+        },
+        "Carboidrato total": {
+            "unidade": "g",
+            "valor": 341.03,
+            "Percentual do valor diário (VD)": 124.01
+        },
+        "Carboidrato disponível": {
+            "unidade": "g",
+            "valor": 296.34
+        },
+        "Proteína": {
+            "unidade": "g",
+            "valor": 138.69,
+            "Percentual do valor diário (VD)": 125.62
+        },
+        "Lipídios": {
+            "unidade": "g",
+            "valor": 72.88,
+            "Percentual do valor diário (VD)": 93.44
+        },
+        "Fibra alimentar": {
+            "unidade": "g",
+            "valor": 44.47,
+            "Percentual do valor diário (VD)": 158.82
+        },
+        "Álcool": {
+            "unidade": "g",
+            "valor": 0.0
+        },
+        "Cinzas": {
+            "unidade": "g",
+            "valor": 19.23
+        },
+        "Colesterol": {
+            "unidade": "mg",
+            "valor": 435.97,
+            "Percentual do valor diário (VD)": 145.32
+        },
+        "Ácidos graxos saturados": {
+            "unidade": "g",
+            "valor": 15.12,
+            "Percentual do valor diário (VD)": 75.6
+        },
+        "Ácidos graxos monoinsaturados": {
+            "unidade": "g",
+            "valor": 30.9
+        },
+        "Ácidos graxos polinsaturados": {
+            "unidade": "g",
+            "valor": 21.09
+        },
+        "Ácidos graxos trans": {
+            "unidade": "g",
+            "valor": 0.26
+        },
+        "Cálcio": {
+            "unidade": "mg",
+            "valor": 649.44,
+            "Percentual do valor diário (VD)": 49.96
+        },
+        "Ferro": {
+            "unidade": "mg",
+            "valor": 24.41,
+            "Percentual do valor diário (VD)": 135.61
+        },
+        "Sódio": {
+            "unidade": "mg",
+            "valor": 1164.51,
+            "Percentual do valor diário (VD)": 50.63
+        },
+        "Magnésio": {
+            "unidade": "mg",
+            "valor": 603.46,
+            "Percentual do valor diário (VD)": 143.68
+        },
+        "Fósforo": {
+            "unidade": "mg",
+            "valor": 1792.22,
+            "Percentual do valor diário (VD)": 143.38
+        },
+        "Potássio": {
+            "unidade": "mg",
+            "valor": 4097.8,
+            "Percentual do valor diário (VD)": 87.19
+        },
+        "Zinco": {
+            "unidade": "mg",
+            "valor": 16.26,
+            "Percentual do valor diário (VD)": 147.82
+        },
+        "Cobre": {
+            "unidade": "mg",
+            "valor": 3.33,
+            "Percentual do valor diário (VD)": 370.0
+        },
+        "Selênio": {
+            "unidade": "mcg",
+            "valor": 61.36,
+            "Percentual do valor diário (VD)": 111.56
+        },
+        "Vitamina A (RE)": {
+            "unidade": "mcg",
+            "valor": 1562.76,
+            "Percentual do valor diário (VD)": 86.82
+        },
+        "Vitamina A (RAE)": {
+            "unidade": "mcg",
+            "valor": 807.59,
+            "Percentual do valor diário (VD)": 89.73
+        },
+        "Vitamina D": {
+            "unidade": "mcg",
+            "valor": 1.38,
+            "Percentual do valor diário (VD)": 6.9
+        },
+        "Alfa-tocoferol (Vitamina E)": {
+            "unidade": "mg",
+            "valor": 22.1,
+            "Percentual do valor diário (VD)": 147.33
+        },
+        "Vitamina C": {
+            "unidade": "mg",
+            "valor": 279.34,
+            "Percentual do valor diário (VD)": 310.38
+        },
+        "Equivalente de folato": {
+            "unidade": "mcg",
+            "valor": 658.18,
+            "Percentual do valor diário (VD)": 164.54
+        },
+        "Sal de adição": {
+            "unidade": "g",
+            "valor": 0.9
+        },
+        "Açúcar de adição": {
+            "unidade": "g",
+            "valor": 0.0,
+            "Percentual do valor diário (VD)": 0.0
+        },
+        "Quantidade em gramas": {
+            "Total sem Umidade": 571.8299999999999,
+            "Total com Umidade": 2027.6899999999998
+        },
+        "Percentual de calorias por macro": {
+            "Carboidrato": 51.25,
+            "Proteína": 22.31,
+            "Lipídios": 26.38,
+            "Álcool": 0.0,
+            "Não identificado": 0.06
+        },
+        "Percentual de gramas por macro": {
+            "Carboidrato": 59.6,
+            "Proteína": 24.25,
+            "Lipídios": 12.75,
+            "Álcool": 0.0,
+            "Não identificado": 3.4
+        },
+        "Tiamina (Vitamina B1)": {
+            "unidade": "mg",
+            "valor": 1.4,
+            "Percentual do valor diário (VD)": 116.67
+        },
+        "Riboflavina (Vitamina B2)": {
+            "unidade": "mg",
+            "valor": 0.91,
+            "Percentual do valor diário (VD)": 70.0
+        },
+        "Niacina (Vitamina B3)": {
+            "unidade": "mg",
+            "valor": 57.19,
+            "Percentual do valor diário (VD)": 357.44
+        },
+        "Piridoxina (Vitamina B6)": {
+            "unidade": "mg",
+            "valor": 0.76,
+            "Percentual do valor diário (VD)": 44.71
+        },
+        "Cobalamina (Vitamina B12)": {
+            "unidade": "mcg",
+            "valor": 1.94,
+            "Percentual do valor diário (VD)": 80.83
+        }
+    },
+    "Macros por Refeição": {
+        "café da manhã": {
+            "Energia": {
+                "unit": "kcal",
+                "value": 614.17
+            },
+            "Umidade": {
+                "unit": "g",
+                "value": 124.9
+            },
+            "Carboidrato total": {
+                "unit": "g",
+                "value": 75.46
+            },
+            "Carboidrato disponível": {
+                "unit": "g",
+                "value": 63.74
+            },
+            "Proteína": {
+                "unit": "g",
+                "value": 22.44
+            },
+            "Lipídios": {
+                "unit": "g",
+                "value": 27.29
+            },
+            "Fibra alimentar": {
+                "unit": "g",
+                "value": 11.64
+            }
+        },
+        "Almoço": {
+            "Energia": {
+                "unit": "kcal",
+                "value": 619.9
+            },
+            "Umidade": {
+                "unit": "g",
+                "value": 494.43
+            },
+            "Carboidrato total": {
+                "unit": "g",
+                "value": 84.8
+            },
+            "Carboidrato disponível": {
+                "unit": "g",
+                "value": 70.94
+            },
+            "Proteína": {
+                "unit": "g",
+                "value": 44.17
+            },
+            "Lipídios": {
+                "unit": "g",
+                "value": 14.59
+            },
+            "Fibra alimentar": {
+                "unit": "g",
+                "value": 13.82
+            }
+        },
+        "Meio da tarde": {
+            "Energia": {
+                "unit": "kcal",
+                "value": 64.3
+            },
+            "Umidade": {
+                "unit": "g",
+                "value": 93.0
+            },
+            "Carboidrato total": {
+                "unit": "g",
+                "value": 16.27
+            },
+            "Carboidrato disponível": {
+                "unit": "g",
+                "value": 14.88
+            },
+            "Proteína": {
+                "unit": "g",
+                "value": 0.4
+            },
+            "Lipídios": {
+                "unit": "g",
+                "value": 0.06
+            },
+            "Fibra alimentar": {
+                "unit": "g",
+                "value": 1.36
+            }
+        },
+        "Final da tarde": {
+            "Energia": {
+                "unit": "kcal",
+                "value": 517.4
+            },
+            "Umidade": {
+                "unit": "g",
+                "value": 259.67
+            },
+            "Carboidrato total": {
+                "unit": "g",
+                "value": 82.38
+            },
+            "Carboidrato disponível": {
+                "unit": "g",
+                "value": 75.21
+            },
+            "Proteína": {
+                "unit": "g",
+                "value": 22.5
+            },
+            "Lipídios": {
+                "unit": "g",
+                "value": 12.39
+            },
+            "Fibra alimentar": {
+                "unit": "g",
+                "value": 7.15
+            }
+        },
+        "Jantar": {
+            "Energia": {
+                "unit": "kcal",
+                "value": 670.8
+            },
+            "Umidade": {
+                "unit": "g",
+                "value": 483.86
+            },
+            "Carboidrato total": {
+                "unit": "g",
+                "value": 82.12
+            },
+            "Carboidrato disponível": {
+                "unit": "g",
+                "value": 71.57
+            },
+            "Proteína": {
+                "unit": "g",
+                "value": 49.18
+            },
+            "Lipídios": {
+                "unit": "g",
+                "value": 18.55
+            },
+            "Fibra alimentar": {
+                "unit": "g",
+                "value": 10.5
+            }
+        }
+    },
+    "Compostos bioativos - Flavonóides (mg)": {
+        "Quercetina": 2.09,
+        "Catequina": 4.86,
+        "Epicatequina": 10.2,
+        "Delfinidina": 16.8,
+        "Malvidina": 18.9,
+        "Peonidina": 3.6,
+        "Gliciteína": 0.12,
+        "Genisteína": 0.23,
+        "Daidzeína": 0.23,
+        "Hesperitina": 29.8,
+        "Naringenina": 57.2,
+        "Caempferol": 2.1
+    }
+}

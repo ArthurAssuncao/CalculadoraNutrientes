@@ -1,0 +1,2 @@
+PyDispatcher==2.0.5
+scrapy==2.6.1
