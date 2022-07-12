@@ -6,6 +6,7 @@ import matplotlib.pyplot as plot
 DIET_FILE = "diet.json"
 USER_FILE = "user.json"
 DATA_FILE = "foods.json"
+FOOD_CUSTOM_DATA_FILE = "foods-custom.json"
 DAILY_VALUE_FDA_FILE = "daily-value-fda.json"
 DIET_CALCULATED_FILE = "diet-calculated.json"
 BIOACTIVE_COMPOUND_FILE = "food_bioactive_compound.json"
@@ -54,6 +55,11 @@ def read_data():
         data = json.loads(arq.read())
     return data
 
+def read_food_custom_data():
+    data = []
+    with open(FOOD_CUSTOM_DATA_FILE, 'r', encoding='utf8') as arq:
+        data = json.loads(arq.read())
+    return data
 
 def read_daily_value_fda():
     data = []
@@ -330,17 +336,19 @@ def main():
     user = read_user()
     diet = read_diet()
     foods = read_data()
+    foods_custom = read_food_custom_data()
+    all_foods = {**foods, **foods_custom}
 
     user_targets(user)
 
-    diet_calculated = calculate_diet(diet, foods)
+    diet_calculated = calculate_diet(diet, all_foods)
     diet_calculated = calc_daily_value(user, diet_calculated)
     diet_calculated = fix_nutrients_names(diet_calculated)
     diet_calculated = fix_fields_names(diet_calculated)
     diet_calculated = {
         "diet": diet_calculated
     }
-    diet_calculated = add_macros_per_meal(diet, foods, diet_calculated)
+    diet_calculated = add_macros_per_meal(diet, all_foods, diet_calculated)
     bioactive_calculated = generate_bioactive_compound_calculated(diet)
     diet_calculated['Compostos bioativos - Flavonóides (mg)'] = bioactive_calculated
 
